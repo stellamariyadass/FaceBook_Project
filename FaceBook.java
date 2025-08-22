@@ -12,7 +12,9 @@ public class FaceBook {
 	WebDriver driver=new ChromeDriver();
 	
 	driver.get("https://www.facebook.com/");
-	
+
+	driver.manage().window().maximize();
+
 	WebElement email = driver.findElement(By.id("email"));
 	email.sendKeys("abinaya@gmail.com");
 	
