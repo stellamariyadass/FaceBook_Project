@@ -23,5 +23,12 @@ public class FaceBook {
 	
 	WebElement login = driver.findElement(By.name("login"));
 	email.click();
+
+		System.out.println("Sharmila");
+				System.out.println("Sharmila");
+		System.out.println("Sharmila");
+		System.out.println("Sharmila");
+		System.out.println("Sharmila");
+
 	}
 }
